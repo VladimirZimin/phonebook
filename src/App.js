@@ -35,7 +35,6 @@ export default class App extends Component {
 
   addContacts = (abonent) => {
     const { name, number } = abonent;
-    console.log("name:", name);
 
     const newContact = this.state.contacts
       .map((contact) => contact.name.toLowerCase())
